@@ -1,0 +1,152 @@
+/* Credit to SEAN BLATTENBERGER : https://codepen.io/sean-blattenberger/pen/xwJzwR */
+
+.card {
+  font-weight: 200;
+}
+.section.bio {
+  background-color: black !important;
+}
+#download-button {
+  border: 1px solid black;
+  opacity: 0.8;
+}
+.work {
+  font-size: 24px;
+  font-weight: 200;
+}
+.button-collapse {
+  color: #03a9f4 !important;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 300px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, 0.9);
+}
+.parallax-container .section {
+  width: 100%;
+  overflow: 1;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  div.row.center {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+img {
+  opacity: 0.85;
+  /* -webkit-filter: contrast(2.2) grayscale(0.5) brightness(0.4) invert(0.2)
+    sepia(0.4) opacity(0.75); */
+}
+body {
+  background: black;
+}
+h5 {
+  font-weight: 400;
+}
+
+h5.speech {
+  color: rgb(238, 236, 236) !important;
+  /* text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc; */
+
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: normal;
+  text-transform: none;
+  /*background-color: rgba(0, 0, 0, 0.478);*/
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  div.row.center.first {
+    position: relative;
+    top: -110px;
+  }
+}
+
+@media screen and (max-width: 348px) {
+  .cacher {
+    display: contents !important;
+  }
+  .cacher::before {
+    margin: 0 10px 0 10px !important;
+    color: rgba(119, 123, 179, 0.9) !important;
+  }
+}
+
+.parallax::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* Black overlay with 0.6 opacity */
+}
+
+/* button */
+
+button {
+  border: none;
+  outline: none;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}
