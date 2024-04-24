@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Anonyme-spy.github.io/static/css/main.d5c726fc.css",
+    "main.js": "/Anonyme-spy.github.io/static/js/main.5346a7b6.js",
+    "index.html": "/Anonyme-spy.github.io/index.html",
+    "main.d5c726fc.css.map": "/Anonyme-spy.github.io/static/css/main.d5c726fc.css.map",
+    "main.5346a7b6.js.map": "/Anonyme-spy.github.io/static/js/main.5346a7b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5c726fc.css",
+    "static/js/main.5346a7b6.js"
+  ]
+}
